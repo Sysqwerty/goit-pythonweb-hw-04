@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "goit-pythonweb-hw-04"
+version = "0.1.0"
+description = ""
+authors = ["Oleksii Dmytriiev <sysqwerty1984@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+aiofiles = "^24.1.0"
+aiopath = "^0.7.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
